@@ -34,6 +34,9 @@ body{
     position: relative;
   z-index: 999px;
 }
+.card:nth-child(1) .profile-des img{
+  border:2px solid hsl(264, 82%, 80%);
+}
 .profile-des img{
   border-radius: 50%;
   height: 40px;
@@ -75,6 +78,9 @@ body{
   background-color: hsl(219, 29%, 14%);
   color: white;
 }
+.card:nth-child(4) img{
+  border: 2px solid hsl(0, 0%, 81%);
+}
 /* .card:nth-child(3){
   grid-column: 1/2;
 } */
@@ -95,5 +101,4 @@ body{
     grid-column: auto ;
     grid-row: auto ;
   }
-
 }
